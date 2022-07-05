@@ -15,7 +15,7 @@ body{
     box-shadow: inset 0 0 0 50vw rgba(0,0,0,0.7);
     /* filter:contrast(.5) brightness(.5); */
 }
-.content{
+.header .content{
   color:white;
   position: absolute;
   top: 50%;
@@ -28,9 +28,11 @@ body{
     font-weight: 900;
     margin-bottom: 20px;
 }
-.content p{
+p{
     font-size: 20px;
     font-weight: 400;
+}
+.header p{
     margin-bottom: 40px;
 }
 a{
@@ -42,3 +44,52 @@ a{
     padding: 10px 30px;
     border-radius: 10px;
 }
+
+.donate-today{
+    width: 700px;
+    margin: 200px auto;
+    text-align: center;
+}
+.donate-today p{
+    color: #707070;
+    font-size: 18px;
+    /* font-weight: 400; */
+    letter-spacing: 2px;
+}
+h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.amount{
+    margin: 100px 0;
+}
+.amount p{
+    display: inline;
+    background-color: #FAFAFA;
+    margin-right: 20px;
+    padding: 30px;
+    color: #707070;
+    border-radius: 5px;
+    font-size: 20px;
+    letter-spacing: normal;
+}
+.amount .selected{
+    border:2px solid #FF5959;
+    background-color: #FFEEEE;
+}
+.amount-input{
+    margin-bottom: 50px;
+}
+input {
+    color: #B3B3B3;
+    outline: 0;
+    border-width: 0 0 1px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 18px;
+  }
+  input:focus {
+    border-color:#DADADA
+  }
