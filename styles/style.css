@@ -124,6 +124,10 @@ input {
     font-size: 18px;
     margin-top: 30px;
   }
+  .flexible-container h3{
+    font-size: 24px;
+    font-weight: 600;
+  }
   .food-for-family{
     background-color: rgba(79, 157, 166, 0.1);
   }
@@ -137,4 +141,24 @@ input {
   }
   .education-for-child{
     background-color:#FFF4D6;
+  }
+
+  footer{
+    margin-top: 200px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  footer h3{
+    color: #FF5959;
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    margin-bottom: 20px;
+
+  }
+  footer p{
+    color: #D9DBE1;
+    font-size:14px;
   }
