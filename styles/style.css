@@ -57,7 +57,6 @@ a{
 .donate-today p{
     color: #707070;
     font-size: 18px;
-    /* font-weight: 400; */
     letter-spacing: 2px;
 }
 h2{
@@ -68,7 +67,7 @@ h2{
 .amount{
     margin: 100px 0;
 }
-.amount p{
+.amount li{
     display: inline;
     background-color: #FAFAFA;
     margin-right: 20px;
