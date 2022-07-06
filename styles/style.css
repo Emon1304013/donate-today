@@ -173,7 +173,9 @@ h2{
     font-size: 40px;
   }
   .achievements h3{
-    font-size: 24px;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
   }
 
     /* Achievements Styling ends here */
