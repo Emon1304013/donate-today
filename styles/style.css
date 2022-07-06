@@ -6,9 +6,9 @@ section{
     margin-bottom: 150px;
 }
 body{
-    /* font-family: 'Poppins', sans-serif; */
     font-family: 'Roboto', sans-serif;
 }
+/* Header Styling starts here */
 .header{
     background-image: url(../images/donation0.jpg);
     height: 650px;
@@ -16,7 +16,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: inset 0 0 0 50vw rgba(0,0,0,0.7);
-    /* filter:contrast(.5) brightness(.5); */
 }
 .header .content{
   color:white;
@@ -47,7 +46,9 @@ a{
     padding: 10px 30px;
     border-radius: 10px;
 }
+/* Header Styling ends here */
 
+/* Donate-today Styling starts here */
 .donate-today{
     width: 700px;
     margin: 150px auto;
@@ -93,6 +94,10 @@ h2{
     padding-bottom: 10px;
     font-size: 18px;
   }
+
+  /* Donate-today Styling starts here */
+
+  /* Donation-plan Styling starts here */
 .donation-plan{
     width: 80%;
     margin: 10px auto;
@@ -143,6 +148,38 @@ h2{
     background-color:#FFF4D6;
   }
 
+    /* Donation-plan Styling ends here */
+
+  /* Achievements Styling starts here */
+  .achievements{
+    height: 300px;
+    background-image: url(../images/donation1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 50vw rgba(0,0,0,0.8);
+    margin: 150px 0px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  .achievements div{
+    margin: 0px 100px;
+    text-align: center;
+  }
+  .achievements h2{
+    color: #4CAF50;
+    font-size: 40px;
+  }
+  .achievements h3{
+    font-size: 24px;
+  }
+
+    /* Achievements Styling ends here */
+
+    /* Updates Styling starts here */
   .get-update{
     margin-top: 100px; 
     width: 100%;
@@ -191,7 +228,9 @@ h2{
 	text-transform: uppercase;
     cursor: pointer;
   }
-  
+/* Updates Styling ends here */
+
+/* Footer Styling starts here */
   footer{
     margin-top: 200px;
     background-color: black;
@@ -212,4 +251,5 @@ h2{
     font-size:14px;
   }
 
+  /* Footer Styling starts here */
 
